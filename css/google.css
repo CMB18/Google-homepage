@@ -38,7 +38,6 @@ ul {
 }
 #nav-links {
     color: #404040;
-    padding: 7px 63px;
 }
 a {
     text-decoration: none;
@@ -78,7 +77,7 @@ a {
 .buttoms {
     text-align: center;
     padding-top: 35px;
-    margin-bottom: 300px;
+    margin-bottom: 250px;
     opacity: 70%;
     height: 50px;
     display: block;
