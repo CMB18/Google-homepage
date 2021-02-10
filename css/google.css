@@ -49,7 +49,15 @@ a {
 #sign-in {
     color:#fff;
 }
-
+/* GOOGLE AREA */
+.g-img #google-logo {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+    padding-top: 112px;
+    padding-bottom: 20px;
+}
 
 
 
