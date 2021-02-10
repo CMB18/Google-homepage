@@ -17,23 +17,23 @@
 
     <header>
 
-        <nav>
+        <nav id="nav-bar">
 
             <ul id="navbar-left">  
 
-               <li class="nav-links"<a href="#">About</a>    
+                <li class="nav-links" ><a href="#">About</a></li>
 
-                <a href="#">Store</a>         
+                <li class="nav-links"><a href="#">Store</a></li>     
 
             </ul> 
 
             <ul id="navbar-right">
 
-                <a href="#">Gmail</a>
+                <li class="nav-links" id="gmail"><a href="#">Gmail</a></li>
 
-                <a href="#">Images</a>
+                <li class="nav-links"><a href="#">Images</a></li>
 
-                <li id="sign_in"><a href="#">Sign In</a></li>
+                <li id="sign-in" id="sign_in"><a href="#">Sign In</a></li>
 
             </ul>
 
@@ -46,21 +46,24 @@
     <body> 
         <div class="g-img">     
 
-            <img src="/images/google-logo.png" alt="google logo image" class="center">
+            <img src="/images/google-logo.png" alt="google logo image">
 
         </div>
 
                     <!-- SEARCH BAR --> 
 
-        <div>
-                  
-             <input type="text" class="sb" placeholder="Search..">
-                    
+        <div class="form">
+            <form>
+            
+                <input type="text" id="search-form" placeholder="Search..">
+            
+            </form>
+       
         </div>
 
         <div>
 
-
+                     <!-- BUTTOMS -->
 
         </div>
         <footer>
