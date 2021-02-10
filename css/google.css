@@ -3,15 +3,14 @@ body{
     font-size: 14px;
 }
 .center {
-    position: relative;
-    padding-top: 120px;
-    margin: auto;
-    margin-bottom: 30px;
-    padding-left: 60px;
-    display: block;
-    /* align-items: center;
-    justify-content: center; */
+
     
+    text-align: center;
+  display: block;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 122px;
+  padding-bottom: 20px;
   }
   .sb {
    position: relative;
@@ -37,7 +36,7 @@ body{
 #right {
     word-spacing: 35px;
     float: right;
-    padding-right: 56px;
+    padding-right: 76px;
     text-decoration-color: none;
 }
     
@@ -65,3 +64,4 @@ a {
   button:focus {
       outline: none;
   }
+ 
