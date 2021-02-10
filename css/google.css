@@ -58,6 +58,19 @@ a {
     padding-top: 112px;
     padding-bottom: 20px;
 }
+.sb {
+    text-align: center;
+    color: 0.6px solid rgba(3, 3, 3, 0.1);;
+}
+#search-bar {
+    border-radius: 1.2em;
+    width: 550px;
+    line-height: 32px;
+    border: 0.6px solid rgba(3, 3, 3, 0.1);
+} 
+.sb #search-bar {
+    padding: 0 8px;
+}
 
 
 
