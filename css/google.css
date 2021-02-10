@@ -1,16 +1,14 @@
 .center {
-  
-    margin-left: auto;
-    margin-right: auto;
-   padding-top: 150px;
+    position: relative;
+    padding-top: 120px;
     margin: auto;
-   
     display: flex;
     align-items: center;
     justify-content: center;
     
   }
   .sb {
+   position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -20,4 +18,24 @@
     border: 0.6px solid rgba(3, 3, 3, 0.1);
     text-align: center;
     -webkit-appearance: none;
-  }
+
+}
+ #left {
+    word-spacing: 25px;
+    float: left;
+    color: black;
+}
+
+#right {
+    word-spacing: 35px;
+    float: right;
+    padding-right: 56px;
+}
+    
+a:hover {
+    color: black;
+}
+a:active {
+    color: black;
+    text-decoration-color: ;
+}
