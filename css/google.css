@@ -52,7 +52,7 @@ a {
 #sign-in {
     color:#fff;
 }
-/* GOOGLE AREA */
+/* MAIN AREA */
 .g-img #google-logo {
     text-align: center;
     display: block;
@@ -82,6 +82,7 @@ a {
     height: 50px;
     display: block;
     -webkit-appearance: none;
+    cursor: pointer;
 }
 /* FOOTER */
 footer {
